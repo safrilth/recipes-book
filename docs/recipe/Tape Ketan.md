@@ -1,17 +1,7 @@
 ---
 share: true
 publish-path: recipe
-links:
-  mdlinks: false #convert to markdownlinks 
-  convert: false #transform to simple string with keeping alt text or file name/ title (it removes the  or []())
-embed:
-  send: false #prevent sending embed
-  remove: false #remove embed citation completely (replace to empty string the ![[]] or ![]())
-attachment: 
-  send: false #prevent sending attachment
-  folder: docs/assets/img #change default folder for attachment
-dataview: true #force/prevent dataview queries conversion
-hardbreak: false #same but for hardbreak
+
 repo:
   branch: main #change default branch 
   repo: recipes-book #change default repository
@@ -22,21 +12,21 @@ repo:
 ## Bahan
 
 > [!example] List
-> 1. Beras ketan 2 kg
-> 2. Ragi Tape 6 butir
-> 3. Pewarna Makanan (hijau)
-> 4. Gula Pasir 10 sdm
-> 5. Daun Pandan
-> 6. Daun Pisang
+> 1. [[../ingredient/Beras ketan|Beras ketan]] 2 kg
+> 2. [[../ingredient/Ragi Tape|Ragi Tape]] 6 butir
+> 3. [[../ingredient/Pewarna Makanan|Pewarna Makanan]] (hijau)
+> 4. [[../ingredient/Gula Pasir|Gula Pasir]] 10 sdm
+> 5. [[../ingredient/Daun Pandan|Daun Pandan]]
+> 6. [[../ingredient/Daun Pisang|Daun Pisang]]
 
 ## Alat
 
 > [!example] List
-> 1. Magicom
-> 2. Ember Plastik
-> 3. Nampan
-> 4. Saringan Teh
-> 5. Wadah
+> 1. [[Magicom]]
+> 2. [[Ember Plastik]]
+> 3. [[Nampan]]
+> 4. [[Saringan Teh]]
+> 5. [[Wadah]]
 
 
 ## Langkah Langkah

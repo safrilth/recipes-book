@@ -1,17 +1,6 @@
 ---
 share: true
 publish-path: recipe
-links:
-  mdlinks: false #convert to markdownlinks 
-  convert: false #transform to simple string with keeping alt text or file name/ title (it removes the  or []())
-embed:
-  send: false #prevent sending embed
-  remove: false #remove embed citation completely (replace to empty string the ![[]] or ![]())
-attachment: 
-  send: false #prevent sending attachment
-  folder: docs/assets/img #change default folder for attachment
-dataview: true #force/prevent dataview queries conversion
-hardbreak: false #same but for hardbreak
 repo:
   branch: main #change default branch 
   repo: recipes-book #change default repository
@@ -22,12 +11,12 @@ repo:
 ## Bahan
 
 > [!example] List
-> 1. Tepung Terigu 250 gr
-> 2. Garam 1/2 sdt
-> 3. Gula Pasir 1 sdm
-> 4. Mentega 1 sdm
-> 5. Ragi / Fermipan 1 sdt
-> 6. Air
+> 1. [[../ingredient/Tepung Terigu|Tepung Terigu]] 250 gr
+> 2. [[../ingredient/Garam|Garam]] 1/2 sdt
+> 3. [[../ingredient/Gula Pasir|Gula Pasir]] 1 sdm
+> 4. [[../ingredient/Mentega|Mentega]] 1 sdm
+> 5. [[../ingredient/Ragi|Ragi]] / [[../ingredient/Fermipan|Fermipan]] 1 sdt
+> 6. [[../ingredient/Air|Air]]
 
 ## Langkah Langkah
 

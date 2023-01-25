@@ -1,17 +1,6 @@
 ---
 share: true
 publish-path: ingredient
-links:
-  mdlinks: false #convert to markdownlinks 
-  convert: false #transform to simple string with keeping alt text or file name/ title (it removes the  or []())
-embed:
-  send: false #prevent sending embed
-  remove: false #remove embed citation completely (replace to empty string the ![[]] or ![]())
-attachment: 
-  send: false #prevent sending attachment
-  folder: docs/assets/img #change default folder for attachment
-dataview: true #force/prevent dataview queries conversion
-hardbreak: false #same but for hardbreak
 repo:
   branch: main #change default branch 
   repo: recipes-book #change default repository
@@ -20,21 +9,21 @@ repo:
 ---
 
 ## Dipakai di Resep
-- Bakpao
-- Bolu Karamel
-- Bolu Pisang Kukus
-- Bolu Santan
-- Brownis Kukus Chocolator
-- Choco Lava
-- Kue Bolu Susu Kukus
-- Kue Garbu Gurih
-- Kue Kucur
-- Kue Lekker
-- Kue Widaran
-- Martabak Manis
-- Onde Onde Ketawa
-- Stik Bawang
-- Stik Pandan Manis
+- [[../recipe/Bakpao|Bakpao]]
+- [[../recipe/Bolu Karamel|Bolu Karamel]]
+- [[../recipe/Bolu Pisang Kukus|Bolu Pisang Kukus]]
+- [[../recipe/Bolu Santan|Bolu Santan]]
+- [[../recipe/Brownis Kukus Chocolator|Brownis Kukus Chocolator]]
+- [[../recipe/Choco Lava|Choco Lava]]
+- [[../recipe/Kue Bolu Susu Kukus|Kue Bolu Susu Kukus]]
+- [[../recipe/Kue Garbu Gurih|Kue Garbu Gurih]]
+- [[../recipe/Kue Kucur|Kue Kucur]]
+- [[../recipe/Kue Lekker|Kue Lekker]]
+- [[../recipe/Kue Widaran|Kue Widaran]]
+- [[../recipe/Martabak Manis|Martabak Manis]]
+- [[../recipe/Onde Onde Ketawa|Onde Onde Ketawa]]
+- [[../recipe/Stik Bawang|Stik Bawang]]
+- [[../recipe/Stik Pandan Manis|Stik Pandan Manis]]
 
 ## Keterangan
 

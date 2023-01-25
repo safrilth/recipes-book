@@ -1,17 +1,6 @@
 ---
 share: true
 publish-path: recipe
-links:
-  mdlinks: false #convert to markdownlinks 
-  convert: false #transform to simple string with keeping alt text or file name/ title (it removes the  or []())
-embed:
-  send: false #prevent sending embed
-  remove: false #remove embed citation completely (replace to empty string the ![[]] or ![]())
-attachment: 
-  send: false #prevent sending attachment
-  folder: docs/assets/img #change default folder for attachment
-dataview: true #force/prevent dataview queries conversion
-hardbreak: false #same but for hardbreak
 repo:
   branch: main #change default branch 
   repo: recipes-book #change default repository
@@ -22,15 +11,15 @@ repo:
 ## Bahan
 
 > [!example] List
-> 1. Tepung Terigu 540 gr
-> 2. Margarin Cair didinginkan 80 gr
-> 3. Telur 3 butir
-> 4. Gula Pasir 10 sdm
-> 5. Garam 1/2 sdt
-> 6. Baking Powder 1 sdt
-> 7. Soda Kue 1 sdt
-> 8. Vanili
-> 9. Biji Wijen
+> 1. [[../ingredient/Tepung Terigu|Tepung Terigu]] 540 gr
+> 2. [[Margarin Cair]] didinginkan 80 gr
+> 3. [[../ingredient/Telur|Telur]] 3 butir
+> 4. [[../ingredient/Gula Pasir|Gula Pasir]] 10 sdm
+> 5. [[../ingredient/Garam|Garam]] 1/2 sdt
+> 6. [[../ingredient/Baking Powder|Baking Powder]] 1 sdt
+> 7. [[../ingredient/Soda Kue|Soda Kue]] 1 sdt
+> 8. [[../ingredient/Vanili|Vanili]]
+> 9. [[../ingredient/Biji Wijen|Biji Wijen]]
 
 
 ## Langkah Langkah

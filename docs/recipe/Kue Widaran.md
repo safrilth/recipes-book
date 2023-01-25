@@ -1,17 +1,7 @@
 ---
 share: true
 publish-path: recipe
-links:
-  mdlinks: false #convert to markdownlinks 
-  convert: false #transform to simple string with keeping alt text or file name/ title (it removes the  or []())
-embed:
-  send: false #prevent sending embed
-  remove: false #remove embed citation completely (replace to empty string the ![[]] or ![]())
-attachment: 
-  send: false #prevent sending attachment
-  folder: docs/assets/img #change default folder for attachment
-dataview: true #force/prevent dataview queries conversion
-hardbreak: false #same but for hardbreak
+
 repo:
   branch: main #change default branch 
   repo: recipes-book #change default repository
@@ -22,14 +12,14 @@ repo:
 ## Bahan
 
 > [!example] List
-> 1. Tepung Ketan 300 gr
-> 2. Telur 1 Butir
-> 3. Santan 100 mll
-> 4. Tepung Terigu 50 gr
-> 5. Margarin 1 sdm
-> 6. Garam 1/2 sdt
-> 7. Pewarna Makanan
-> 8. Air
-> 9. Bestak Gula
+> 1. [[../ingredient/Tepung Ketan|Tepung Ketan]] 300 gr
+> 2. [[../ingredient/Telur|Telur]] 1 Butir
+> 3. [[../ingredient/Santan|Santan]] 100 mll
+> 4. [[../ingredient/Tepung Terigu|Tepung Terigu]] 50 gr
+> 5. [[../ingredient/Margarin|Margarin]] 1 sdm
+> 6. [[../ingredient/Garam|Garam]] 1/2 sdt
+> 7. [[../ingredient/Pewarna Makanan|Pewarna Makanan]]
+> 8. [[../ingredient/Air|Air]]
+> 9. [[./Bestak Gula|Bestak Gula]]
 
 ## Langkah Langkah
